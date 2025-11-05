@@ -14,7 +14,7 @@ MR-VMU-Tropic is capable of running autopilot software for unmanned vehicles suc
 
 ## Drone Test flight Video
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fEz2vMWSv8o/0.jpg)](https://www.youtube.com/watch?v=fEz2vMWSv8o)
+[![MR-VMU-Tropic Flight](images/mr_tropic_flight.jpg)](https://www.youtube.com/watch?v=Voya-b6vVI0)
 
 
 # Software
@@ -47,7 +47,7 @@ MR-VMU-Tropic board consisting of:
 - Bosch BMM350 Magnetometer 
 - Bosch BMP390 Barometer
 - TDK InvenSense ICM-45686 IMU
-- 2x CAN-FD with a NXP TJA1462ATK CAN Transceiver
+- CAN-FD with a NXP TJA1462ATK CAN Transceiver
 - 100BASE-T1 Ethernet using the [TJA1103](https://www.nxp.com/products/TJA1103)
 - RGB Led
 
@@ -60,7 +60,7 @@ With connectors for:
 | AUX Multi-function         | 6-pin JST-GH           | UART, PWM, Quadrature decoder, Crossbar trigger                              | VCC, TX, RX, GPIO/XBAR, GPIO/XBAR, GND                                |
 | Power Module               | Molex Clik-Mate 5024430670 | Power input and monitoring                                               | V+, V+, SCL, SDA, GND, GND                                            |
 | I2C                        | 4-pin JST-GH           | Sensor communication                                                         | VCC, SCL, SDA, GND                                                    |
-| CAN-FD (x2)                | 4-pin JST-GH           | CAN-FD bus communication                                                     | VCC, CAN_H, CAN_L, GND                                                |
+| CAN-FD                     | 4-pin JST-GH           | CAN-FD bus communication                                                     | VCC, CAN_H, CAN_L, GND                                                |
 | Digital Receiver           | 4-pin JST-GH           | ELRS, CRSF, SBUS input                                                       | VCC, TX, RX, GND                                                      |
 | ESC Header (x2)            | 8-pin JST-SH           | Up to 8x DShot ESCs                                                          | NC, GND, Telemetry, PWM1–PWM4                                         |
 | Ethernet                   | 2-pin JST-GH           | 100BASE-T1 Ethernet                                                          | TRX+, TRX-                                                            |
