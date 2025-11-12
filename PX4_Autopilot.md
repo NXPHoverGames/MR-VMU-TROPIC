@@ -39,6 +39,8 @@ make nxp_mr-tropic
 
 # Flashing PX4 Firmware with QGroundControl
 
+> [!NOTE]  
+> You need a [daily build](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/releases/daily_builds.html) of QGroundControl to get autodetect work
 
 1. Start QGroundControl on your computer.
 2. Go to the Firmware tab:  

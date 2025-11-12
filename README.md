@@ -4,7 +4,7 @@ MR-VMU-Tropic (Vehicle Management Unit) is an Open-Source base board designed ar
 
 MR-VMU-Tropic Side view     |  MR-VMU-Tropic Top view
 :-------------------------:|:-------------------------:
-![](images/mr_vmu_tropic.png)  |  ![](images/mr_vmu_tropic_top_view.png)
+![](images/MR-VMU-TROPIC-8084.jpg)  |  ![](images/MR-VMU-TROPIC-8076.jpg)
 
 MR-VMU-Tropic is capable of running autopilot software for unmanned vehicles such as:
  - Drones
