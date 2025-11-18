@@ -55,7 +55,7 @@ With connectors for:
 
 | Name                        | Connector Type         | Functionality                                                               | Pinout                                                                 |
 |-----------------------------|------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------|
-| GPS                        | 10-pin JST-GH          | GNSS module connection                                                       | VCC, TX, RX, SCL, SDA, PPS, GND, NC, NC, NC                            |
+| GPS                        | 10-pin JST-GH          | GNSS module connection                                                       | VCC, TX, RX, SCL, SDA, SAFETY_SWITCH, LED, VDD_3V3, BUZZER, GND       |
 | UART + Handshake (x2)      | 6-pin JST-GH           | Serial communication with flow control                                       | VCC, TX, RX, CTS, RTS, GND                                            |
 | AUX Multi-function         | 6-pin JST-GH           | UART, PWM, Quadrature decoder, Crossbar trigger                              | VCC, TX, RX, GPIO/XBAR, GPIO/XBAR, GND                                |
 | Power Module               | Molex Clik-Mate 5024430670 | Power input and monitoring                                               | V+, V+, SCL, SDA, GND, GND                                            |
