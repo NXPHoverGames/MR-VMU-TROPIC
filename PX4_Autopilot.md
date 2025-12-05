@@ -14,7 +14,7 @@ PX4 is an open-source BSD-3 Licensed autopilot system for unmanned aerial vehicl
 | LPUART7 | /dev/ttyS5 | ESC    |
 | LPUART8 | /dev/ttyS6 | RC     |
 
-# Flashing the PX4 Bootloader to MR-VMU-Tropic
+# Flashing the PX4 Bootloader to MR-VMU-Tropic using PX4
 
 If your board does not come pre-installed with a PX4-compatible bootloader, you’ll need to flash one manually.
 You can download the official PX4 bootloader here [nxp_mr-tropic_bootloader.bin](https://github.com/PX4/PX4-Autopilot/raw/0b7860bfe57ad171ee596492787d05756041c5be/boards/nxp/mr-tropic/extras/nxp_mr-tropic_bootloader.bin).
@@ -25,8 +25,15 @@ However, make the following adjustments:
 - Replace all mentions of MIMXRT1170 with MIMXRT1064.
 - Skip Step 4: Boot Memory Configuration, this step is not needed for this board.
 
-
+# (Alternative) Flashing the PX4 Bootloader to MR-VMU-Tropic using Debugger
 Alternatively, you can connect a debugger like J-Link via SWD and flash the bootloader directly using tools like J-Link Commander or J-Flash.
+You will have to run the tool such as Jlinkcommander,
+use the 
+`connect` command and select the correct MCU and SWD debugging connection.
+
+Typically you will then use a command line to program similar to 
+`loadbin "nxp_mr-tropic_bootloader.bin" 0x70000000`
+Note that offset address for the bootloader is 0x70000000
 
 # Building PX4 for MR-VMU-Tropic
 
